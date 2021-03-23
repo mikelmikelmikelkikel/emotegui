@@ -30,7 +30,7 @@ local R15 = Instance.new("ImageButton")
 --Properties:
 
 DanceXP.Name = "DanceXP"
-DanceXP.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DanceXP.Parent = game.Workspace
 DanceXP.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 MainFrame.Name = "MainFrame"
@@ -270,7 +270,7 @@ R15.Image = "rbxassetid://6536511549"
 
 -- Scripts:
 
-local function URMEMH_fake_script() -- Minimize.MinimizeScript 
+local function FQOM_fake_script() -- Minimize.MinimizeScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	function leftClick()
@@ -281,8 +281,8 @@ local function URMEMH_fake_script() -- Minimize.MinimizeScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(URMEMH_fake_script)()
-local function ICHEQ_fake_script() -- Close.CloseScript 
+coroutine.wrap(FQOM_fake_script)()
+local function KFFS_fake_script() -- Close.CloseScript 
 	local script = Instance.new('LocalScript', Close)
 
 	function leftClick()
@@ -293,8 +293,8 @@ local function ICHEQ_fake_script() -- Close.CloseScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(ICHEQ_fake_script)()
-local function VWWN_fake_script() -- Maximize.MaximizeScript 
+coroutine.wrap(KFFS_fake_script)()
+local function NEJNYGT_fake_script() -- Maximize.MaximizeScript 
 	local script = Instance.new('LocalScript', Maximize)
 
 	function leftClick()
@@ -305,8 +305,8 @@ local function VWWN_fake_script() -- Maximize.MaximizeScript
 	script.Parent.MouseButton1Click:Connect(leftClick)
 	
 end
-coroutine.wrap(VWWN_fake_script)()
-local function PRUT_fake_script() -- EmoteButton.EmoteScript 
+coroutine.wrap(NEJNYGT_fake_script)()
+local function LSHCDQ_fake_script() -- EmoteButton.EmoteScript 
 	local script = Instance.new('LocalScript', EmoteButton)
 
 	local Anim = Instance.new("Animation")
@@ -316,7 +316,7 @@ local function PRUT_fake_script() -- EmoteButton.EmoteScript
 	local HeadThrow = script.Parent
 	
 	HeadThrow.MouseButton1Click:connect(function()
-		Anim.AnimationId = "rbxassetid://"..script.Parent.Parent.ID_Box..""
+		
 		HeadThrowACTIVE = not HeadThrowACTIVE
 		if HeadThrowACTIVE then
 			script.Parent.Image = "rbxassetid://6559255312"
@@ -333,8 +333,8 @@ local function PRUT_fake_script() -- EmoteButton.EmoteScript
 		end
 	end)
 end
-coroutine.wrap(PRUT_fake_script)()
-local function ZQWBLNA_fake_script() -- EmoteButton_2.EmoteScript 
+coroutine.wrap(LSHCDQ_fake_script)()
+local function YTPPS_fake_script() -- EmoteButton_2.EmoteScript 
 	local script = Instance.new('LocalScript', EmoteButton_2)
 
 	local Anim = Instance.new("Animation")
@@ -344,7 +344,7 @@ local function ZQWBLNA_fake_script() -- EmoteButton_2.EmoteScript
 	local HeadThrow = script.Parent
 	
 	HeadThrow.MouseButton1Click:connect(function()
-		Anim.AnimationId = "rbxassetid://"..script.Parent.Parent.ID_Box..""
+		
 		HeadThrowACTIVE = not HeadThrowACTIVE
 		if HeadThrowACTIVE then
 			script.Parent.Image = "rbxassetid://6559255312"
@@ -361,8 +361,8 @@ local function ZQWBLNA_fake_script() -- EmoteButton_2.EmoteScript
 		end
 	end)
 end
-coroutine.wrap(ZQWBLNA_fake_script)()
-local function QBCAZXY_fake_script() -- EmoteButton_3.EmoteScript 
+coroutine.wrap(YTPPS_fake_script)()
+local function AHUL_fake_script() -- EmoteButton_3.EmoteScript 
 	local script = Instance.new('LocalScript', EmoteButton_3)
 
 	local Anim = Instance.new("Animation")
@@ -372,7 +372,7 @@ local function QBCAZXY_fake_script() -- EmoteButton_3.EmoteScript
 	local HeadThrow = script.Parent
 	
 	HeadThrow.MouseButton1Click:connect(function()
-		Anim.AnimationId = "rbxassetid://"..script.Parent.Parent.ID_Box..""
+		
 		HeadThrowACTIVE = not HeadThrowACTIVE
 		if HeadThrowACTIVE then
 			script.Parent.Image = "rbxassetid://6559255312"
@@ -389,8 +389,8 @@ local function QBCAZXY_fake_script() -- EmoteButton_3.EmoteScript
 		end
 	end)
 end
-coroutine.wrap(QBCAZXY_fake_script)()
-local function SBSJD_fake_script() -- EmoteButton_4.EmoteScript 
+coroutine.wrap(AHUL_fake_script)()
+local function DBJJHWS_fake_script() -- EmoteButton_4.EmoteScript 
 	local script = Instance.new('LocalScript', EmoteButton_4)
 
 	local Anim = Instance.new("Animation")
@@ -400,7 +400,7 @@ local function SBSJD_fake_script() -- EmoteButton_4.EmoteScript
 	local HeadThrow = script.Parent
 	
 	HeadThrow.MouseButton1Click:connect(function()
-		Anim.AnimationId = "rbxassetid://"..script.Parent.Parent.ID_Box..""
+		
 		HeadThrowACTIVE = not HeadThrowACTIVE
 		if HeadThrowACTIVE then
 			script.Parent.Image = "rbxassetid://6559255312"
@@ -417,8 +417,8 @@ local function SBSJD_fake_script() -- EmoteButton_4.EmoteScript
 		end
 	end)
 end
-coroutine.wrap(SBSJD_fake_script)()
-local function AEWSS_fake_script() -- RigSwitcherButtons.ClickScript 
+coroutine.wrap(DBJJHWS_fake_script)()
+local function NCFC_fake_script() -- RigSwitcherButtons.ClickScript 
 	local script = Instance.new('LocalScript', RigSwitcherButtons)
 
 	local r6button = script.Parent.R6
@@ -440,4 +440,4 @@ local function AEWSS_fake_script() -- RigSwitcherButtons.ClickScript
 	script.Parent.R6.MouseButton1Click:Connect(leftClick)
 	script.Parent.R15.MouseButton1Click:Connect(leftClick2)
 end
-coroutine.wrap(AEWSS_fake_script)()
+coroutine.wrap(NCFC_fake_script)()
